@@ -1,0 +1,142 @@
+/* Reset CSS - Xóa bỏ các giá trị mặc định của trình duyệt */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Thiết lập font chữ cho toàn bộ trang */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Container chính - giới hạn chiều rộng và căn giữa */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h1, h2, h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/* Đoạn văn bản */
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Liên kết */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Hình ảnh */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+/* Nút bấm */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Danh sách */
+ul, ol {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Input form */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Bảng */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* CSS đơn giản cho responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+}
